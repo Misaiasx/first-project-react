@@ -1,8 +1,9 @@
-import React from "react";
+import React from"react";
 import ReactDOM from "react-dom";
 
+
 import GlobalStyle from "./styles/globalStyle";
-import Routes from './containers/routes';
+import Routes from './routes';
 
 ReactDOM.render(
   <>

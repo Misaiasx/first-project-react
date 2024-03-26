@@ -1,4 +1,4 @@
-import React from " react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./containers/Home";
@@ -8,8 +8,8 @@ function Routes() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/usuarios" component={Users} />
+        <Route exect path="/" Component={Home} />
+        <Route exect path="/usuarios" Componentt={Users} />
       </Switch>
     </Router>
   );

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import Backgraoud from "../../assets/background1.svg";
 export const Container = styled.div`
   background: url("${Backgraoud}");
@@ -14,33 +15,6 @@ export const Image = styled.img`
   margin-top: 30px;
 `;
 
-export const ContainerItens = styled.div`
-  background: linear-gradient(
-    157.44deg,
-    rgba(255, 255, 255, 0.6) 0.84%,
-    rgba(255, 255, 255, 0.6) 0.85%,
-    rgba(255, 255, 255, 0.15) 100%
-  );
-  border-radius: 61px 61px 0px 0px;
-  padding: 50px 36px;
-
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-`;
-
-export const H1 = styled.h1`
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 34px;
-  font-weight: bold;
-  line-height: 40px;
-
-  text-align: center;
-
-  color: #ffffff;
-  margin-bottom: 80px;
-`;
 
 export const InputLabel = styled.p`
   font-style: normal;
@@ -72,7 +46,7 @@ export const Input = styled.input`
   color: #ffffff;
 `;
 
-export const Button = styled.button`
+export const Button = styled.button `
   width: 342px;
   height: 74px;
   margin-top: 130px;
